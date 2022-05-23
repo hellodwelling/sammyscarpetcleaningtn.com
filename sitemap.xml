@@ -32,13 +32,6 @@
     </url>
 
     <url>
-        <loc>https://sammyscarpetcleaningtn.com/gallery-Tile-and-Grout</loc>
-        <lastmod>2022-05-23</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
         <loc>https://sammyscarpetcleaningtn.com/gallery-Upholstery-Cleaning</loc>
         <lastmod>2022-05-23</lastmod>
         <changefreq>weekly</changefreq>
@@ -47,6 +40,13 @@
 
     <url>
         <loc>https://sammyscarpetcleaningtn.com/gallery-Carpet-Cleaning</loc>
+        <lastmod>2022-05-23</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://sammyscarpetcleaningtn.com/gallery-Tile-and-Grout</loc>
         <lastmod>2022-05-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
