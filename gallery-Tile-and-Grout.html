@@ -963,7 +963,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 8,
+        amountOfImages: 7,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1035,7 +1035,7 @@
                     <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/3ba1d0ac-7304-4e8b-9f7e-1e4bb154827e.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/9fda8633-ecbd-4ceb-81bd-008bf1e28e36.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                             
                         </div>
 
@@ -1052,7 +1052,7 @@
                     <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/9fda8633-ecbd-4ceb-81bd-008bf1e28e36.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/3ba1d0ac-7304-4e8b-9f7e-1e4bb154827e.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                             
                         </div>
 
@@ -1069,23 +1069,6 @@
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/0aba221c-a78b-4763-8ac4-b55b5188d644.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
-                            
-                        </div>
-
-                        <div class="space-y-1 text-lg font-medium leading-6">
-                            <p class="line-clamp-3"></p>
-                            <h3 class="text-primary"></h3>
-                        </div>
-                    </button>
-                </div>
-            </li>
-        
-            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
-                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
-                        <div class="aspect-w-3 aspect-h-2">
-                            
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8366be17-347b-45db-b33f-f5bc4ddcf025.jpeg" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                             
                         </div>
@@ -1100,7 +1083,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/5c89839d-fb63-4a4e-b623-0a5f3d9d3d2d.jpeg" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
@@ -1181,33 +1164,26 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/3ba1d0ac-7304-4e8b-9f7e-1e4bb154827e.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/9fda8633-ecbd-4ceb-81bd-008bf1e28e36.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/9fda8633-ecbd-4ceb-81bd-008bf1e28e36.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/3ba1d0ac-7304-4e8b-9f7e-1e4bb154827e.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 5">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/0aba221c-a78b-4763-8ac4-b55b5188d644.png" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
-                                            <p lorem="1" class="mt-3 text-gray-500"></p>
-                                        
-                                    </li>
-                                
-                                    <li class="flex flex-col" x-show="activeImage === 6">
-                                            
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/8366be17-347b-45db-b33f-f5bc4ddcf025.jpeg" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 7">
+                                    <li class="flex flex-col" x-show="activeImage === 6">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/5c89839d-fb63-4a4e-b623-0a5f3d9d3d2d.jpeg" alt="Tile and Grout for Sammy&#x27;s Carpet Cleaning in Lewis County, TN" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
